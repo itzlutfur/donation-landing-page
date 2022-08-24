@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 1024px;
+    margin-top: 70px;
+}
+
+.section1{
+    background-image: url(images/banner-1.png);
+    background-repeat: no-repeat;
+    height: 669px;
+    background-size: cover;
+}
+.text{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(14, 5, 5, 0.685);
+}
+.text h1{
+    font-size: 35px;
+    line-height: 40px;
+}
+.text p{
+    margin: 10px 0;
+    font-size: 12px;
+
+}
+.btn {
+    color: white;
+    font-weight: bold;
+    padding: 14px;
+    margin-top: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:#FF5959;
+}
+
+.donateToday {
+    text-align: center;
+}
+
+.donateToday h1 {
+    font-size: 30px;
+}
+
+.donateToday p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.amountBox {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.amount {
+    font-weight: 500;
+    color: #707070;
+    padding: 25px;
+    margin: 10px;
+}
+
+.amountActive {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background-color: #ff59593a;
+    color: #FF5959;
+}
+
+.inputAmount input {
+    text-align: center;
+    border: none;
+}
+
+.inputAmount .btn {
+    margin-top: 25px;
+}
+
+.donationPlan {
+    text-align: center;
+}
+
+.donationPlan h1 {
+    font-size: 30px;
+}
+
+.donationPlan p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.planBox {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #4F9DA61A;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    margin:12px 0;
+}
+
+.cardBody {
+    font-size: 14px;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #ffeeee;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 340px;
+    height: 332px;
+    background-color: #fff4d6;
+    border-radius: 5px;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artHead {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+
+.articleImg-2 img {
+    margin-right: 60px;
+    width: 396px;
+}
+
+.updateBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.updates h1{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.updates p {
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    border-radius: 5px;
+}
+
+.form input {
+    width: 275px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.form button {
+    border: none;
+    padding: 10px;
+    background-color: #FF5959;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 177px;
+    background-color: #0B0D17;
+    margin-top: 60px;
+}
+
+footer h1 {
+    color: #FF5959;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
